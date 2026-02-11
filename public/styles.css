@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light dark;
+  font-family: 'Noto Sans KR', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #efefef;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #666;
+}
+
+.search-form button {
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #2a7cff;
+  color: white;
+  cursor: pointer;
+}
+
+.status {
+  min-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.month-panel {
+  border: 1px solid #444;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.month-panel > summary {
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  background: #1e1e1e;
+  font-weight: 600;
+}
+
+.groups {
+  padding: 0.8rem 1rem 1rem;
+}
+
+.group {
+  border: 1px solid #555;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.group summary {
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  font-weight: 500;
+}
+
+.group ul {
+  margin: 0;
+  padding: 0 1.5rem 0.8rem;
+}
+
+.group li {
+  margin: 0.5rem 0;
+  line-height: 1.35;
+}
+
+.group a {
+  color: #7eb5ff;
+  text-decoration: none;
+}
+
+.meta {
+  opacity: 0.8;
+  font-size: 0.875rem;
+}

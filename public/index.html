@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1년 한국어 기사 월별 검색</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>1년 한국어 기사 월별 검색기</h1>
+      <p>오늘 기준 최근 12개월을 1개월 단위로 보여주고, 제목 유사도 85% 이상 기사를 묶습니다.</p>
+
+      <form id="search-form" class="search-form">
+        <input id="query" name="query" type="text" placeholder="검색어를 입력하세요 (예: 반도체, 전기차)" required />
+        <button type="submit">검색</button>
+      </form>
+
+      <section id="status" class="status"></section>
+      <section id="results" class="results"></section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
