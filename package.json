@@ -1,0 +1,18 @@
+{
+  "name": "korean-news-timeline",
+  "version": "1.1.0",
+  "description": "Search and group Korean news articles by month over the last year",
+  "main": "server.js",
+  "type": "module",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "build:win": "npx pkg . --targets node18-win-x64 --output dist/korean-news-timeline.exe"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ]
+  }
+}
