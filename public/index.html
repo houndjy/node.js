@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한국 뉴스 그룹 검색</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>한국 뉴스 그룹 검색</h1>
+      <form id="searchForm">
+        <input id="query" type="text" value="AI" placeholder="검색어" required />
+        <input id="from" type="date" required />
+        <input id="to" type="date" required />
+        <button type="submit">검색</button>
+      </form>
+      <p class="hint">제목 유사도 80% 이상은 한 항목으로 자동 묶입니다.</p>
+      <section id="result"></section>
+    </main>
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>

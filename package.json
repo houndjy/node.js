@@ -1,0 +1,10 @@
+{
+  "name": "korean-news-grouped-search",
+  "version": "1.0.0",
+  "description": "한국 뉴스 검색/중복 묶음/연월일 그룹화를 제공하는 예제 앱",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
